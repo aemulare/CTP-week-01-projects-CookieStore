@@ -58,6 +58,18 @@ div.cookies {
     max-height: 180px;
 }
 
+/* red icon NEW */
+.new h3::after {
+    content: "NEW";
+    font-size: 0.5em;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    margin: 0 5px;
+    padding: 3px 6px;
+    vertical-align: middle;
+}
+
 
 /* sections' headings */
 h2 {
