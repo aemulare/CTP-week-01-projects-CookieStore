@@ -25,14 +25,37 @@ div.brand {
 }
 
 
+/* store brand name */
 .brand h1 {
     color: white;
     font-size: 7em;
 }
 
 
+/* store slogan */
 .brand p {
     color: white;
     font-size: 2em;
     font-weight: 300;
 }
+
+
+/* container for cookie img, name and description */
+div.cookies {
+    padding: 15px;
+}
+
+
+/* name of a cookie */
+.cookies h3 {
+    font-size: 1.8em;
+}
+
+
+/* picture of a cookie */
+.cookies img {
+    border-radius: 50%;
+    max-height: 180px;
+}
+
+
