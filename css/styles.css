@@ -52,6 +52,10 @@ div.cookies {
 }
 
 
+.cookies p {
+    font-size: 1.2em;
+}
+
 /* picture of a cookie */
 .cookies img {
     border-radius: 50%;
@@ -74,6 +78,32 @@ div.cookies {
 /* sections' headings */
 h2 {
     font-size: 4em;
+}
+
+
+/* background for ABOUT section */
+div.about {
+    background:
+            url('../img/cmonster.png')   	/* image */
+            left 30px center / auto auto         /* position / size */
+            no-repeat                       /* repeat */
+            content-box                     /* clip */
+            lightgrey;
+    height: auto;
+}
+
+
+/* heading for ABOUT section */
+.about h2 {
+    padding: 30px 0;
+}
+
+
+/* paragraph inside ABOUT section */
+.about div {
+    text-align: left;
+    padding: 0 30px 30px 300px;
+    font-size: 1.2em;
 }
 
 
