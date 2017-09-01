@@ -1,1 +1,38 @@
+.container-fluid {
+    text-align: center;
+}
 
+
+/* background image for the store brand name */
+.img-bg {
+    height: 550px;
+    background:
+            url('../img/milkbg.jpg')   	/* image */
+            center center / cover 		/* position / size */
+            no-repeat                	/* repeat */
+            content-box ;             	/* clip */
+    display: flex;
+    align-items: center;
+}
+
+
+/* store brand name semitransparent background */
+div.brand {
+    margin: 0 auto;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.brand h1 {
+    color: white;
+    font-size: 7em;
+}
+
+
+.brand p {
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+}
