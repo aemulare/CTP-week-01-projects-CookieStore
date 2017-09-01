@@ -81,15 +81,16 @@ h2 {
 }
 
 
-/* background for ABOUT section */
+/* ABOUT section */
 div.about {
     background:
             url('../img/cmonster.png')   	/* image */
-            left 30px center / auto auto         /* position / size */
+            left 30px center / auto auto    /* position / size */
             no-repeat                       /* repeat */
             content-box                     /* clip */
             lightgrey;
     height: auto;
+    margin-bottom: 0;
 }
 
 
@@ -106,4 +107,17 @@ div.about {
     font-size: 1.2em;
 }
 
+
+/* CONTACT section */
+div.contact {
+    background-color: rgb(38,160,206);
+    padding: 30px;
+    color: white;
+}
+
+
+/* paragraph inside CONTACT section */
+.contact div {
+    font-size: 1.2em;
+}
 
