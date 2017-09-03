@@ -121,3 +121,68 @@ div.contact {
     font-size: 1.5em;
 }
 
+
+
+@media only screen and (min-width: 1024px) {
+    /*.col-lg-3 {*/
+        /*width: 100%;*/
+    /*}*/
+    div.cookies:nth-child(even) {
+        /*background-color: pink;*/
+        width: 100%;
+        text-align: right;
+    }
+    div.cookies:nth-child(odd) {
+        /*background-color: lightblue;*/
+        width: 100%;
+        text-align: left;
+    }
+
+
+
+    div.cookies:nth-child(even) > img {
+        /*border: 2px solid red;*/
+        display: inline;
+
+    }
+    div.cookies:nth-child(odd) > img {
+        /*border: 2px solid green;*/
+        display: inline;
+    }
+
+
+    div.cookies:nth-child(even) > h3 {
+        /*color: red;*/
+        display: inline-block;
+
+        position: absolute;
+        right: 30%;
+        top: 20%
+    }
+    div.cookies:nth-child(odd) > h3 {
+        /*color: green;*/
+
+        display: inline-block;
+        position: absolute;
+        left: 30%;
+        top: 20%
+    }
+
+
+    div.cookies:nth-child(even) > p {
+        /*color: red;*/
+        display: inline-block;
+        position: absolute;
+        right: 30%;
+        top: 50%;
+    }
+    div.cookies:nth-child(odd) > p {
+        /*color: green;*/
+
+        display: inline-block;
+        position: absolute;
+        left: 30%;
+        top: 50%;
+    }
+
+}
