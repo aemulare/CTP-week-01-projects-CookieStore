@@ -103,7 +103,7 @@ div.about {
 /* paragraph inside ABOUT section */
 .about div {
     text-align: left;
-    padding: 0 30px 100px 300px;
+    padding: 0 30px 200px 300px;
     font-size: 1.4em;
 }
 
@@ -121,66 +121,69 @@ div.contact {
     font-size: 1.5em;
 }
 
-
-
 @media only screen and (min-width: 1024px) {
-
-    /* cookies' containers are redesigned to new grids 2x4 */
-    div.cookies:nth-child(even) {
-        display: grid;
-        grid-template-columns: auto 300px;
-        grid-template-rows: 25% 25% 25% 25%;
+    .col-lg-3 {
         width: 100%;
-        text-align: right;
     }
-
-    div.cookies:nth-child(odd) {
-        display: grid;
-        grid-template-columns: 300px auto;
-        grid-template-rows: 25% 25% 25% 25%;
-        width: 100%;
-        text-align: left;
-    }
-
-
-    /* positions images inside new grid */
-    div.cookies:nth-child(even) > img {
-        grid-column: 2;
-        grid-row: 1 / span 4;
-    }
-
-    div.cookies:nth-child(odd) > img {
-        grid-column: 1;
-        grid-row: 1 / span 4;
-    }
-
-
-    /* positions cookies' names inside new grid */
-    div.cookies:nth-child(even) > h3 {
-        grid-column: 1;
-        grid-row: 2;
-        margin-right: 30px;
-    }
-
-    div.cookies:nth-child(odd) > h3 {
-        grid-column: 2;
-        grid-row: 2;
-        margin-left: 30px;
-    }
-
-
-    /* positions cookies' descriptions inside new grid */
-    div.cookies:nth-child(even) > p {
-        grid-column: 1;
-        grid-row: 3;
-        margin-right: 30px;
-    }
-
-
-    div.cookies:nth-child(odd) > p {
-        grid-column: 2;
-        grid-row: 3;
-        margin-left: 30px;
-    }
-
 }
+
+/*@media only screen and (min-width: 1024px) {*/
+
+    /*!* cookies' containers are redesigned to new grids 2x4 *!*/
+    /*div.cookies:nth-child(even) {*/
+        /*display: grid;*/
+        /*grid-template-columns: auto 300px;*/
+        /*grid-template-rows: 25% 25% 25% 25%;*/
+        /*width: 100%;*/
+        /*text-align: right;*/
+    /*}*/
+
+    /*div.cookies:nth-child(odd) {*/
+        /*display: grid;*/
+        /*grid-template-columns: 300px auto;*/
+        /*grid-template-rows: 25% 25% 25% 25%;*/
+        /*width: 100%;*/
+        /*text-align: left;*/
+    /*}*/
+
+
+    /*!* positions images inside new grid *!*/
+    /*div.cookies:nth-child(even) > img {*/
+        /*grid-column: 2;*/
+        /*grid-row: 1 / span 4;*/
+    /*}*/
+
+    /*div.cookies:nth-child(odd) > img {*/
+        /*grid-column: 1;*/
+        /*grid-row: 1 / span 4;*/
+    /*}*/
+
+
+    /*!* positions cookies' names inside new grid *!*/
+    /*div.cookies:nth-child(even) > h3 {*/
+        /*grid-column: 1;*/
+        /*grid-row: 2;*/
+        /*margin-right: 30px;*/
+    /*}*/
+
+    /*div.cookies:nth-child(odd) > h3 {*/
+        /*grid-column: 2;*/
+        /*grid-row: 2;*/
+        /*margin-left: 30px;*/
+    /*}*/
+
+
+    /*!* positions cookies' descriptions inside new grid *!*/
+    /*div.cookies:nth-child(even) > p {*/
+        /*grid-column: 1;*/
+        /*grid-row: 3;*/
+        /*margin-right: 30px;*/
+    /*}*/
+
+
+    /*div.cookies:nth-child(odd) > p {*/
+        /*grid-column: 2;*/
+        /*grid-row: 3;*/
+        /*margin-left: 30px;*/
+    /*}*/
+/*}*/
